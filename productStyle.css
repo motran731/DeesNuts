@@ -10,6 +10,7 @@ body {
 
 .header {
   padding: 20px;
+  margin: 10px;
   text-align: center;
   background-color: #ffde59;
   font-size: 20px;
@@ -29,7 +30,7 @@ body {
 .navbar {
   width: 100%;
   background-color: #ffde59;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .navbar a {
@@ -61,7 +62,9 @@ body {
 }
 
 /*cards */
-
+.container {
+  align-content: space-evenly;
+}
 .column {
   float: left;
   width: 30%;
@@ -73,7 +76,7 @@ body {
   padding: 40px;
   /* box-sizing: border-box; */
   display: flex;
-  align-content: space-around;
+  align-content: space-evenly;
 }
 
 .row:after {
@@ -103,6 +106,13 @@ body {
   height: 2.5rem;
   text-align: center;
   color: black;
+}
+
+.input {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .button {
